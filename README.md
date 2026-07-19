@@ -1,4 +1,4 @@
-# Eco Force — Product Chat Demo
+# Aura.com — Product Chat Demo
 
 Simple full-stack demo that lets a frontend query a Python FastAPI backend to search product data.
 

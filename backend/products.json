@@ -1,0 +1,254 @@
+[
+    {
+        "id": 21,
+        "name": "Google Pixel Buds Pro 2",
+        "price": 2299,
+        "category": "Gadgets",
+        "description": "Adaptive Active Noise Cancellation, Google Gemini integration, 20-hour battery with case, custom-fit ear tips."
+    },
+    {
+        "id": 22,
+        "name": "Microsoft Surface Pro 10",
+        "price": 12999,
+        "category": "Electronics",
+        "description": "13-inch PixelSense touchscreen, Intel Core Ultra processor, detachable keyboard support, up to 19 hours battery life."
+    },
+    {
+        "id": 225,
+        "name": "Samsung Galaxy Tab S9 Ultra",
+        "price": 11999,
+        "category": "Electronics",
+        "description": "14.6-inch Dynamic AMOLED 2X display, Snapdragon 8 Gen 2, S Pen included, IP68 water and dust resistant."
+    },
+    {
+        "id": 23,
+        "name": "Insta360 X4 360 Camera",
+        "price": 4499,
+        "category": "Gadgets",
+        "description": "8K360 video capture, invisible selfie stick effect, AI editing, waterproof to 10m, active HDR stabilisation."
+    },
+    {
+        "id": 24,
+        "name": "Corsair K70 Pro Mechanical Keyboard",
+        "price": 1899,
+        "category": "Electronics",
+        "description": "Wired mechanical gaming keyboard, MLX switches, PBT double-shot keycaps, 8000Hz polling rate, per-key RGB."
+    },
+    {
+        "id": 25,
+        "name": "Ecoflow River 3 Portable Power Station",
+        "price": 3499,
+        "category": "Gadgets",
+        "description": "245Wh capacity, 300W output, fast 1-hour charge, LFP battery, app monitoring, ideal for camping and outages."
+    },
+    {
+        "id": 26,
+        "name": "Steam Deck OLED (512GB)",
+        "price": 5999,
+        "category": "Gaming",
+        "description": "7.4-inch HDR OLED display, 90Hz refresh rate, improved battery life, access to full PC game library on the go."
+    },
+    {
+        "id": 27,
+        "name": "Ring Video Doorbell Pro 2",
+        "price": 1799,
+        "category": "Gadgets",
+        "description": "3D motion detection, 1536p HD video, head-to-toe view, built-in Wi-Fi 6 support, two-way talk with noise cancellation."
+    },
+    {
+        "id": 28,
+        "name": "ASUS ROG Ally X Handheld",
+        "price": 6999,
+        "category": "Gaming",
+        "description": "7-inch 120Hz FHD display, AMD Ryzen Z1 Extreme, 24GB RAM, expanded 80Wh battery for extended handheld gaming."
+    },
+    {
+        "id": 29,
+        "name": "Bose QuietComfort Ultra Earbuds",
+        "price": 2599,
+        "category": "Gadgets",
+        "description": "Immersive Audio spatial sound, CustomTune calibration, up to 6 hours playback with ANC, IPX4 sweat resistance."
+    },
+    {
+        "id": 30,
+        "name": "Western Digital My Passport 4TB SSD",
+        "price": 2199,
+        "category": "Electronics",
+        "description": "Portable external SSD, USB-C 3.2 Gen 2 speeds up to 2000MB/s, password protection with hardware encryption."
+    },
+    {
+        "id": 31,
+        "name": "Nanoleaf Shapes Hexagon Kit",
+        "price": 1599,
+        "category": "Gadgets",
+        "description": "Modular smart light panels, music sync, touch-reactive, 16M colours, works with Alexa, Google, and HomeKit."
+    },
+    {
+        "id": 32,
+        "name": "Logitech G Pro X Superlight 2 Mouse",
+        "price": 1499,
+        "category": "Gaming",
+        "description": "Ultra-lightweight 60g wireless gaming mouse, HERO 2 32K sensor, 95-hour battery, esports-grade performance."
+    },
+    {
+        "id": 33,
+        "name": "JBL Charge 5 Portable Speaker",
+        "price": 1699,
+        "category": "Gadgets",
+        "description": "Powerful bass, IP67 waterproof and dustproof, 20-hour playtime, built-in power bank for charging devices."
+    },
+    {
+        "id": 34,
+        "name": "Wacom Intuos Pro Medium Tablet",
+        "price": 3199,
+        "category": "Electronics",
+        "description": "Pressure-sensitive drawing tablet, 8192 levels, multi-touch gestures, wireless connectivity, Bluetooth ready."
+    },
+    {
+        "id": 35,
+        "name": "Meta Quest 3S VR Headset (128GB)",
+        "price": 3999,
+        "category": "Gaming",
+        "description": "Mixed reality passthrough, Snapdragon XR2 Gen 2 chip, standalone gaming, no PC required, wide game library."
+    },
+    {
+        "id": 36,
+        "name": "Dyson Airwrap Multi-Styler",
+        "price": 4499,
+        "category": "Gadgets",
+        "description": "Coanda airflow styling technology, no extreme heat damage, multiple attachments for curls, waves, and smoothing."
+    },
+    {
+        "id": 37,
+        "name": "Netgear Nighthawk RS700 Wi-Fi 7 Router",
+        "price": 6499,
+        "category": "Electronics",
+        "description": "Tri-band Wi-Fi 7, speeds up to 19Gbps, 10G Ethernet port, covers up to 3,500 sq ft, advanced parental controls."
+    },
+    {
+        "id": 38,
+        "name": "Xbox Wireless Controller (Elite Series 2)",
+        "price": 2399,
+        "category": "Gaming",
+        "description": "Adjustable-tension thumbsticks, wrap-around rubberised grip, 40-hour battery, customisable button mapping."
+    },
+    {
+        "id": 39,
+        "name": "Withings Body Scan Smart Scale",
+        "price": 3299,
+        "category": "Gadgets",
+        "description": "Segmental body composition analysis, ECG, nerve activity screening, vascular age estimation, app sync."
+    },
+    {
+        "id": 40,
+        "name": "Samsung T9 Portable SSD 2TB",
+        "price": 1899,
+        "category": "Electronics",
+        "description": "USB 3.2 Gen 2x2 speeds up to 2000MB/s, shock-resistant up to 3m drop, compact metal casing, password protection."
+    },
+    {
+        "id": 41,
+        "name": "Roborock S8 MaxV Ultra Robot Vacuum",
+        "price": 12999,
+        "category": "Gadgets",
+        "description": "Auto empty, wash, and dry mop, dual-camera obstacle avoidance, 10000Pa suction, self-refilling water tank."
+    },
+    {
+        "id": 42,
+        "name": "Razer Kishi V2 Mobile Controller",
+        "price": 999,
+        "category": "Gaming",
+        "description": "Universal mobile gaming controller, clip-on USB-C design, console-quality buttons, near-zero latency."
+    },
+    {
+        "id": 43,
+        "name": "Ember Temperature Control Smart Mug 2",
+        "price": 1499,
+        "category": "Gadgets",
+        "description": "Maintains precise drink temperature via app, 80-minute battery life, LED indicator, auto sleep/wake sensor."
+    },
+    {
+        "id": 44,
+        "name": "Canon EOS R50 Mirrorless Camera",
+        "price": 5999,
+        "category": "Electronics",
+        "description": "24.2MP APS-C sensor, 4K UHD video, Dual Pixel CMOS AF II, vari-angle touchscreen, compact and lightweight body."
+    },
+    {
+        "id": 45,
+        "name": "Ugreen Nexode 300W GaN Charger",
+        "price": 1299,
+        "category": "Gadgets",
+        "description": "6-port fast charging station, GaN technology, charges laptops and multiple devices simultaneously, foldable plug."
+    },
+    {
+        "id": 46,
+        "name": "PlayStation Portal Remote Player",
+        "price": 2999,
+        "category": "Gaming",
+        "description": "8-inch HD screen, streams PS5 games over Wi-Fi, DualSense haptics and adaptive triggers built in."
+    },
+    {
+        "id": 47,
+        "name": "Belkin BoostCharge Pro 3-in-1 Wireless Pad",
+        "price": 1099,
+        "category": "Gadgets",
+        "description": "MagSafe compatible, charges phone, watch, and earbuds simultaneously, 15W fast wireless charging, foldable stand."
+    },
+    {
+        "id": 48,
+        "name": "LG UltraGear 27-inch OLED Gaming Monitor",
+        "price": 8999,
+        "category": "Electronics",
+        "description": "QHD OLED panel, 240Hz refresh rate, 0.03ms response time, NVIDIA G-Sync compatible, anti-glare coating."
+    },
+    {
+        "id": 49,
+        "name": "Anker Soundcore Frames Smart Glasses",
+        "price": 1799,
+        "category": "Gadgets",
+        "description": "Open-ear audio built into stylish frames, UV400 lens protection, touch controls, IPX4 water resistance."
+    },
+    {
+        "id": 50,
+        "name": "Turtle Beach Stealth 700 Gen 3 Headset",
+        "price": 2199,
+        "category": "Gaming",
+        "description": "Wireless gaming headset, ANC, Bluetooth simultaneous connection, 40-hour battery, AI-enhanced mic clarity."
+    },
+    {
+        "id": 51,
+        "name": "Aqara Smart Lock U100",
+        "price": 2399,
+        "category": "Gadgets",
+        "description": "Fingerprint, keypad, and app unlock, Apple Home Key support, auto-lock, tamper alarm, weatherproof design."
+    },
+    {
+        "id": 52,
+        "name": "Epson EcoTank ET-2870 Printer",
+        "price": 2799,
+        "category": "Electronics",
+        "description": "Cartridge-free printing, refillable ink tanks, wireless printing, low cost per page, compact all-in-one design."
+    },
+    {
+        "id": 53,
+        "name": "8BitDo Ultimate 2.4G Wireless Controller",
+        "price": 899,
+        "category": "Gaming",
+        "description": "Hall effect joysticks, programmable back buttons, charging dock included, compatible with PC, Switch, and Android."
+    },
+    {
+        "id": 54,
+        "name": "Vifa Copenhagen Bluetooth Speaker",
+        "price": 3599,
+        "category": "Gadgets",
+        "description": "Scandinavian design, wool-blend cover, 360-degree sound, 12-hour battery, aptX HD wireless streaming."
+    },
+    {
+        "id": 55,
+        "name": "Elgato Facecam MK.2 Webcam",
+        "price": 2599,
+        "category": "Electronics",
+        "description": "1080p60 full-frame Sony sensor, uncompressed USB video, manual focus ring, low-light performance, no auto-tracking issues."
+    }
+]

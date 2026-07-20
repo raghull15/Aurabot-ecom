@@ -2,7 +2,7 @@ import { useState, useRef, useEffect } from "react";
 import axios from "axios";
 import { motion, AnimatePresence } from "framer-motion";
 import Message from "./components/message";
-import WaveBackground from "./components/WaveBackground";
+import WaveBackground from "./components/wavebackground";
 import "./App.css";
 
 const API_URL = import.meta.env.VITE_API_URL;

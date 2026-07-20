@@ -916,16 +916,18 @@ html[data-theme="light"] .chat-panel {
   display: flex;
   flex-direction: column;
   flex-shrink: 0;
-  max-height: 120px;
-  overflow-y: auto;
+  overflow: visible;
+  position: relative;
+  z-index: 10;
 }
 
 .chat-input {
-  padding: 10px 12px 6px 12px;
-  background: transparent;
+  padding: 12px 12px 8px 12px;
+  background: var(--panel-2);
   display: flex;
   gap: 8px;
-  align-items: center;
+  align-items: stretch;
+  min-height: 50px;
 }
 
 .chat-input input {
@@ -935,10 +937,17 @@ html[data-theme="light"] .chat-panel {
   border-radius: 10px;
   color: var(--text);
   font-family: var(--font);
-  font-size: 13px;
-  padding: 10px 12px;
+  font-size: 14px;
+  padding: 12px 14px;
   outline: none;
   transition: border-color 0.2s;
+  min-height: 44px;
+  -webkit-appearance: none;
+  appearance: none;
+}
+
+.chat-input input::placeholder {
+  color: var(--muted);
 }
 
 .chat-input input:focus {
@@ -950,7 +959,7 @@ html[data-theme="light"] .chat-panel {
   font-size: 10px;
   color: var(--muted);
   text-align: center;
-  padding-bottom: 8px;
+  padding: 6px 12px 8px;
   font-weight: 500;
 }
 
@@ -972,21 +981,22 @@ html[data-theme="light"] .chat-panel {
 }
 
 .send-btn {
-  width: 40px;
-  height: 40px;
+  width: 44px;
+  height: 44px;
   border-radius: 8px;
-  border: none;
-  background: #3b82f6;
+  border: var(--border-w) solid var(--primary);
+  background: var(--primary);
   cursor: pointer;
   display: flex;
   align-items: center;
   justify-content: center;
   transition: all 0.15s;
   flex-shrink: 0;
+  color: var(--black);
 }
 
 .send-btn:hover:not(:disabled) {
-  background: #2563eb;
+  background: var(--primary-dark);
   transform: scale(1.05);
 }
 
@@ -999,7 +1009,6 @@ html[data-theme="light"] .chat-panel {
   cursor: not-allowed;
   background: var(--muted);
 }
-
 .send-btn svg {
   width: 18px;
   height: 18px;
@@ -1087,19 +1096,21 @@ html[data-theme="light"] .chat-panel {
   }
 
   .chat-input {
-    padding: 8px 8px 4px 8px;
+    padding: 10px 10px 8px 10px;
     gap: 6px;
+    min-height: 48px;
   }
 
   .chat-input input {
     font-size: 14px;
-    padding: 10px 10px;
+    padding: 10px 12px;
     border-radius: 8px;
+    min-height: 40px;
   }
 
   .send-btn {
-    width: 36px;
-    height: 36px;
+    width: 40px;
+    height: 40px;
   }
 
   .send-btn svg {
@@ -1115,19 +1126,20 @@ html[data-theme="light"] .chat-panel {
 
 @media(max-width:360px) {
   .chat-input {
-    padding: 6px 6px 3px 6px;
+    padding: 8px 8px 6px 8px;
     gap: 4px;
+    min-height: 44px;
   }
 
   .chat-input input {
     font-size: 13px;
-    padding: 8px 8px;
+    padding: 8px 10px;
     min-height: 36px;
   }
 
   .send-btn {
-    width: 32px;
-    height: 32px;
+    width: 36px;
+    height: 36px;
     border-radius: 6px;
   }
 

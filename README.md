@@ -1,64 +1,136 @@
-# Aura.com — Product Chat Demo
+# Aura.com — AI Product Shopping Assistant
 
-Simple full-stack demo that lets a frontend query a Python FastAPI backend to search product data.
+Aura.com is a full-stack AI-powered shopping assistant that helps users search, discover, and compare products through a conversational interface.
 
-## Project structure
+## Tech Stack
 
-- `backend/` — FastAPI server, product search logic, and `products.json` dataset.
-- `frontend/` — Vite + React app that talks to the backend and displays product cards.
+### Frontend
+- React (Vite)
+- Axios
+- CSS
 
-## Requirements
+### Backend
+- FastAPI
+- Python
+- Google Gemini API
+- JSON Dataset
 
-- Python 3.10+
-- Node.js 18+ (for the frontend)
+---
 
-## Run the backend
+## Project Structure
 
-1. Open a terminal and change into the backend folder:
-
-```powershell
-cd backend
-python -m venv venv
-.\venv\Scripts\activate
+```
+task/
+├── backend/
+│   ├── main.py
+│   ├── search.py
+│   ├── products.json
+│   ├── pyproject.toml
+│   └── ...
+│
+└── frontend/
+    ├── src/
+    ├── public/
+    ├── package.json
+    └── ...
 ```
 
-2. Install dependencies (example):
+---
 
-```powershell
+# Backend Setup
+
+### 1. Navigate to the backend
+
+```bash
+cd backend
+```
+
+### 2. Create a virtual environment
+
+**Windows**
+
+```bash
+python -m venv .venv
+.venv\Scripts\activate
+```
+
+### 3. Install dependencies
+
+```bash
 pip install fastapi uvicorn python-dotenv google-genai
 ```
 
-3. Start the API server:
+### 4. Create a `.env` file inside the `backend` folder
 
-```powershell
-uvicorn main:app --reload --host 0.0.0.0 --port 8000
+```
+GEMINI_API_KEY=YOUR_GEMINI_API_KEY
 ```
 
-The API will be available at `http://localhost:8000`. The frontend expects the backend at `http://localhost:8000` and uses `http://localhost:5173` as the frontend origin.
+> **Note:** The API key is not included in this repository. Generate your own Gemini API key and add it to the `.env` file.
 
-## Run the frontend
+### 5. Start the backend
 
-1. Change into the frontend folder and install dependencies:
+```bash
+uvicorn main:app --reload
+```
+
+The backend runs at:
+
+```
+http://127.0.0.1:8000
+```
+
+---
+
+# Frontend Setup
+
+### 1. Navigate to the frontend
 
 ```bash
 cd frontend
+```
+
+### 2. Install dependencies
+
+```bash
 npm install
 ```
 
-2. Start the dev server:
+### 3. Start the frontend
 
 ```bash
 npm run dev
 ```
 
-Open `http://localhost:5173` in your browser.
+Open:
+
+```
+http://localhost:5173
+```
+
+---
+
+## Features
+
+- AI-powered shopping assistant
+- Product search and recommendations
+- Product comparison
+- JSON-based product catalog
+- Responsive React interface
+- FastAPI backend
+- Google Gemini AI integration
+
+---
 
 ## Notes
 
-- The backend's dependencies are listed in `backend/pyproject.toml`.
-- Product data is stored in `backend/products.json` and images are in `frontend/public/product-images/`.
-- If you need environment variables, add a `.env` file in `backend/`.
+- The Gemini API key is **not included** in this repository.
+- Create your own `backend/.env` file before running the project.
+- The backend must be running before starting the frontend.
+- By default, the frontend communicates with the backend at `http://127.0.0.1:8000`.
 
-## Contact
+---
 
-For questions or changes, open an issue or contact the project owner.
+## Author
+
+Developed as an AI Product Shopping Assistant demonstration project.

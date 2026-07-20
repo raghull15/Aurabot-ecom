@@ -930,7 +930,7 @@ html[data-theme="light"] .chat-panel {
   display: flex;
   gap: 8px;
   align-items: stretch;
-  min-height: 50px;
+  min-height: 70px;
   width: 100%;
   max-width: 500px;
 }
